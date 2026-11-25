@@ -14,7 +14,7 @@ export const CarouselItem = styled.div`
     img {
         width: 100%;
         height: 600px;
-        object-fit: cover;
+        object-fit: none;
 
         @media (max-width: 1024px) {
             height: 450px;

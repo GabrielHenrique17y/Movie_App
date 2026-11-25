@@ -51,7 +51,6 @@ export default function Header() {
             <div className="center-content">
                 <Link to={'/'}>Movies</Link>
                 <Link to={'/series'}>Series</Link>
-                <Link to={'/users'}>Users</Link>
             </div>
             {isLoggedIn ? (
                 <div className="right-content">

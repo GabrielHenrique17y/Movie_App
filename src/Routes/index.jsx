@@ -12,7 +12,6 @@ import Actor from '../pages/Actor';
 import Login from '../pages/Login';
 import WatchList from '../pages/WatchList';
 import Register from '../pages/Register';
-import List from '../pages/Users/List';
 
 export default function AppRoutes() {
     return (
@@ -81,19 +80,10 @@ export default function AppRoutes() {
             />
 
             <Route
-                path="watchList/:name?"
+                path="watchList/"
                 element={
                     <MyRoute IsClosed={true}>
                         <WatchList />
-                    </MyRoute>
-                }
-            />
-
-            <Route
-                path="users/"
-                element={
-                    <MyRoute IsClosed={false}>
-                        <List />
                     </MyRoute>
                 }
             />
